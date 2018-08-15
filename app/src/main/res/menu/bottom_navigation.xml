@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/actionLabeling"
+        android:title="@string/title_nav_labeling"
+        android:icon="@drawable/ic_image_black_24dp"/>
+    <item android:id="@+id/actionBarcode"
+        android:title="@string/title_nav_barcode"
+        android:icon="@drawable/ic_image_black_24dp"/>
+    <item android:id="@+id/actionTextRecognition"
+        android:title="@string/title_nav_text"
+        android:icon="@drawable/ic_image_black_24dp"/>
+</menu>

@@ -1,4 +1,4 @@
-package be.maximedupierreux.vault.vault.android
+package be.maximedupierreux.mlkitdemo.android
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

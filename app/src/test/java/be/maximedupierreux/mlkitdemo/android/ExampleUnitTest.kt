@@ -1,4 +1,4 @@
-package be.maximedupierreux.vault.vault.android
+package be.maximedupierreux.mlkitdemo.android
 
 import org.junit.Test
 

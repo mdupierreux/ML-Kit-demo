@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/actionLabeling">
+    <fragment
+        android:id="@+id/actionLabeling"
+        android:name="be.maximedupierreux.mlkitdemo.android.ImageLabelingFragment"
+        android:label="fragment_image_labeling"
+        tools:layout="@layout/fragment_image_labeling" />
+    <fragment
+        android:id="@+id/actionTextRecognition"
+        android:name="be.maximedupierreux.mlkitdemo.android.TextRecognitionFragment"
+        android:label="fragment_text_recognition"
+        tools:layout="@layout/fragment_text_recognition" />
+    <fragment
+        android:id="@+id/actionBarcode"
+        android:name="be.maximedupierreux.mlkitdemo.android.BarcodeReaderFragment"
+        android:label="fragment_barcode_reader"
+        tools:layout="@layout/fragment_barcode_reader" />
+</navigation>
